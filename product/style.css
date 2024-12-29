@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'IRANSansX';
+    src: url('/fonts/IRANSansXRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'IRANSansX';
+    src: url('/fonts/IRANSansX/IRANSansXBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+
+
+*{
+    font-family: 'IRANSansX', sans-serif; 
+}
+body{
+
+    background-color: rgb(255, 255, 255);
+}
+
+.blackitem{
+    background-color: rgb(35, 71, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoimgheader{
+    width: 80px;
+}
+.logobox{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+}
+
+
+#searchbox{
+    width: 440px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(35, 71, 134, 0.592);
+    transition: width ,border-radius , 0.5s;
+}
+#searchbox:hover{
+    width: 530px;
+    height: 50px;
+    border-radius: 3px;
+}
+.boxsearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+#inputsearch{
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    margin-right: 10px;
+    direction: rtl;
+}
+#inputsearch:focus{
+    border: 0;
+    box-shadow: 0;
+    outline: none;
+}
+.mainnavbarborder{
+    border-bottom: 1px solid rgba(35, 71, 134, 0.592);
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.headerbuts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnbasket{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(41, 87, 164, 1);
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: small; 
+    transition:  border-radius , 0.2s;
+}
+.btnbasket:hover{
+    background-color: rgb(35, 71, 134);
+    border-radius: 3px;
+}
+.btnlogin{
+    background-color: rgba(87, 185, 82, 1);
+    width: 100px;
+    height: 50px;
+    border: 0;
+    color: white;
+    transition:  border-radius , 0.2s;
+    margin-left: 5px; 
+}
+.btnlogin:hover{
+    background-color: rgb(67, 145, 63);
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+.navbar{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.navbar div{
+    cursor: pointer;
+}
+.navbar div:hover{
+    color: rgb(73, 152, 69);
+    
+}
+.partproduct div{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.partproduct div:hover{
+    color: rgb(73, 152, 69);
+}
+#items{
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 550%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 20;
+    display: none;
+    border-top: 0.2px solid black;
+} 
+#blackacc{
+    background-color: rgba(0, 0, 0, 0.364);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    display: none;
+}
+.partproduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    height: 100%;
+    margin: 30px;
+    max-width: 90%;
+}
+
+
+.naveitems{
+    font-size: small;
+    direction: rtl;
+    align-items: center;
+    margin-bottom: -10px;
+    padding-bottom: 15px;
+}
+.naveitems div:hover{
+    color: rgba(87, 185, 82, 1);
+    cursor: pointer;
+}
+.saleitem{
+    width: 100%;
+    max-width: 25%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    text-align: center;
+    transition: border , 0.2s;
+}
+.saleitem:hover{
+    box-shadow: 1px 1px 5px rgba(87, 185, 82, 1);
+    border-radius: 3px;
+    border: 1px solid rgba(35, 71, 134, 0.592);
+}
+.itemimg{
+    width: 200px;
+    height: 200px;
+}
+.saleitem div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+.filterbox{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(35, 71, 134, 0.592);
+    max-width: 20%;
+    width: 95%;
+    margin-left: 10px;
+    direction: rtl;
+    border-radius: 0px;
+    position: sticky;
+    top: 10px;
+    transition: border-radius , 0.2s;
+}
+.filterbox:hover{
+    box-shadow: 1px 1px 3px rgba(87, 185, 82, 1);
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
