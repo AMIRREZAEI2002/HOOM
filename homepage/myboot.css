@@ -1,0 +1,123 @@
+.discen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row ;
+}
+.disbet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row ;
+}
+.disaru{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row ;
+}
+.distart{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+    flex-direction: row ;
+}
+.disend{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+    flex-direction: row ;
+}
+.disevn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row ;
+}
+
+
+
+
+
+
+
+
+.btnorg{
+    width: 70%;
+    height: 35px;
+    font-size: larger;
+    background-color: rgb(35, 71, 134);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    transition: width 0.2s;
+    padding: 0px 5px;
+}
+.btnorg:hover{
+    width: 99%;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgba(87, 185, 82, 1);
+}
+
+
+
+
+
+
+
+hr{
+    color: rgb(35, 71, 134);
+}
+.line{
+    width: 100%;
+    max-width: 100%;
+    background-color: gray;
+    height: 1px;
+}
+
+
+
+
+
+.fs-6s{
+    font-size: 14px
+}
+.fs-7{
+    font-size: small;
+}
+.mr-1{
+    margin-right: 5px;
+}
+.mr-2{
+    margin-right: 10px;
+}
+.mr-3{
+    margin-right: 15px;
+}
+.mr-4{
+    margin-right: 20px;
+}
+.mr-5{
+    margin-right: 25px;
+}
+
+
+
+
+.borderme{
+    border: 1px solid rgba(35, 71, 134, 0.592);
+    transition: border-radius , 0.2s;
+}
+.borderme:hover{
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgba(87, 185, 82, 1);
+}
+
+input{
+    direction: rtl;
+}
